@@ -162,17 +162,6 @@ const MasterLayout = ({ children }) => {
                     Users List
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    to="/view-profile"
-                    className={(navData) =>
-                      navData.isActive ? "active-page" : ""
-                    }
-                  >
-                    <i className="ri-circle-fill circle-icon text-danger-main w-auto" />{" "}
-                    View Profile
-                  </NavLink>
-                </li>
               </ul>
             </li>
 
