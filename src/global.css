@@ -1,0 +1,15 @@
+.Toastify__toast--success {
+    border-left: 6px solid #22c55e; /* green */
+  }
+  
+  .Toastify__toast--error {
+    border-left: 6px solid #ef4444; /* red */
+  }
+  
+  .Toastify__toast--warning {
+    border-left: 6px solid #f59e0b; /* yellow */
+  }
+  
+  .Toastify__toast--info {
+    border-left: 6px solid #3b82f6; /* blue */
+  }
