@@ -22,7 +22,6 @@ const EditUserLayer = () => {
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
-    console.log(file)
     if (file) {
       setImageFile(file);
       setImagePreviewUrl(URL.createObjectURL(file))

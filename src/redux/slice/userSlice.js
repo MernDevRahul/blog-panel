@@ -211,6 +211,9 @@ const authSlice = createSlice({
       .addCase(updateUser.fulfilled, (state, action) => {
         state.loading = false;
         const updatedUser = action.payload.data;
+        if(updatedUser._id == state.user._id){
+          state.user = updatedUser;
+        }
         state.allUsers = state.allUsers.map((user) =>
           user._id === updatedUser._id ? updatedUser : user,
         );

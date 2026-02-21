@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 
 const ViewProfileLayer = () => {
   const { user } = useSelector((state)=>state.user)
+  console.log(user)
 
   return (
     <div className='row gy-4'>
