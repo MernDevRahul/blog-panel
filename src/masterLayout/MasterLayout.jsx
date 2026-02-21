@@ -170,7 +170,7 @@ const MasterLayout = ({ children }) => {
             <li className="dropdown">
               <Link to="#">
                 <Icon
-                  icon="flowbite:users-group-outline"
+                  icon="flowbite:file-doc-outline"
                   className="menu-icon"
                 />
                 <span>Blog</span>
